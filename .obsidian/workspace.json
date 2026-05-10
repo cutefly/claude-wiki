@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/index.md",
+                "file": "raw/obrasuperpowers An agentic skills framework & software development methodology that works..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "obrasuperpowers An agentic skills framework & software development methodology that works."
             }
           }
         ]
@@ -201,19 +201,24 @@
   },
   "active": "3d2ad3186ec9fda8",
   "lastOpenFiles": [
+    "wiki/subagents.md",
+    "wiki/skill-md-pattern.md",
+    "raw/VoltAgentawesome-claude-code-subagents A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.md",
     "raw/obrasuperpowers An agentic skills framework & software development methodology that works..md",
-    "wiki/log.md",
+    "wiki/developer-skills-catalog.md",
     "wiki/index.md",
+    "wiki/mcp.md",
+    "wiki/log.md",
+    "wiki/agentic-skills.md",
+    "wiki/claude-code-subagents.md",
     "wiki/coding-agent-workflows.md",
+    "raw/🚀 12 Claude Skills Every👨🏻‍💻Developer Should Be Using Right Now.md",
+    "Clippings",
     "wiki/model-routing.md",
     "wiki/test-driven-development.md",
     "wiki/subagent-driven-development.md",
-    "wiki/claude-code-subagents.md",
-    "wiki/agentic-skills.md",
     "wiki/superpowers-framework.md",
-    "raw/VoltAgentawesome-claude-code-subagents A collection of 100+ specialized Claude Code subagents covering a wide range of development use cases.md",
     "환영합니다!.md",
-    "Clippings",
     "CLAUDE.md",
     "GEMINI.md",
     "templates",

@@ -1,16 +1,16 @@
 # Subagent-Driven Development
 
-**Summary**: 서브에이전트 기반 개발(SDD)은 독립적인 서브에이전트들이 각 태스크를 수행하고, 2단계 검토(스펙 준수 → 코드 품질)를 거쳐 빠르게 반복하는 개발 방식이다.
+**Summary**: 서브에이전트 기반 개발(SDD)은 [[superpowers-framework]]의 핵심 실행 전략으로, 구현 계획의 각 태스크를 독립된 서브에이전트에게 위임하고 완료 후 2단계 검토(스펙 준수 → 코드 품질)를 거쳐 전진한다.
 
 **Sources**: `obrasuperpowers An agentic skills framework & software development methodology that works..md`
 
-**Last updated**: 2026-05-08
+**Last updated**: 2026-05-10
 
 ---
 
 ## 개념
 
-Subagent-Driven Development(SDD)는 [[superpowers-framework]]의 핵심 실행 전략이다. 구현 계획이 준비된 후, 에이전트가 각 태스크에 대해 새로운 서브에이전트를 파견하고, 완료된 작업을 2단계로 검토하며 전진한다. (source: obrasuperpowers...)
+Subagent-Driven Development(SDD)는 구현 계획이 준비된 후, 에이전트가 각 태스크에 대해 새로운 서브에이전트를 파견하고, 완료된 작업을 2단계로 검토하며 전진하는 방식이다. (source: obrasuperpowers...)
 
 일반적인 에이전트 개발에서는 장시간 작업 중 컨텍스트가 오염되거나 계획에서 이탈하는 문제가 발생한다. SDD는 각 태스크를 격리된 서브에이전트에게 위임함으로써 이 문제를 해결한다.
 
@@ -52,7 +52,7 @@ SDD를 통해 Claude Code가 별도 지시 없이 수 시간 동안 자율적으
 ## 사전 조건
 
 SDD가 잘 동작하려면:
-1. **[[writing-plans|상세한 구현 계획]]** — 2-5분 단위의 명확한 태스크
+1. **상세한 구현 계획** — 2-5분 단위의 명확한 태스크 (superpowers의 writing-plans 스킬로 생성)
 2. **각 태스크에 정확한 파일 경로** 명시
 3. **검증 단계** 포함 — 태스크 완료를 확인하는 방법
 4. **[[test-driven-development|TDD 기반]]** — 테스트가 진실의 기준
@@ -60,7 +60,7 @@ SDD가 잘 동작하려면:
 ## Related pages
 
 - [[superpowers-framework]]
-- [[agentic-skills]]
+- [[skill-md-pattern]]
 - [[test-driven-development]]
+- [[subagents]]
 - [[claude-code-subagents]]
-- [[coding-agent-workflows]]
